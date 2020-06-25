@@ -10,16 +10,16 @@ int main() {
   delivery_order.push_back(0.99);
   delivery_order.push_back(5.99);
   
-  for (int i = 0; i < delivery_order.size(); i++) {
-    delivery_order[i] = delivery_order[i] + 10;
-  }
+  // Calculate the total using a for loop:
   
   double total = 0.0;
   
-  for (int i = 0; i < double.size(); i++) {
-    double[i] = double[i] + 10;
+  for (int i = 0; i < delivery_order.size(); i++) {
+
+    total = total + delivery_order[i];
+  
   }
   
   std::cout << "Total: $" << total << "\n";
-   
+    
 }
